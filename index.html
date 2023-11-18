@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="Uma página de login criada apartir">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="login, boostrap, exemplo">
+    <!-- links de estilo da página -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- titulo do cabeçalho -->
+    <title>Página de login</title>
+</head>
+<body>
+    <section>
+   <!-- caixa de login -->
+   <div class="login-box">
+    <form action="">
+        <h2>Login</h2>
+        <!-- caixa de entrada de senha e email -->
+        <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>
+        </div>
+     
+        <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required>
+            <label>Senha</label>
+        </div>
+
+        <div class="remember-forgout">
+            <label><input type="checkbox">Lembre me</label>
+            <a href="#">Esqueceu a senha?</a>
+        </div>
+
+        <button class="t" type="submit">Login</button>
+        
+        <div class="register-link">
+            <p>Não tem conta? <a href="#">Crie agora</a></p>
+        </div>
+
+    </form>
+   </div>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</section>
+</body>
+</html>
